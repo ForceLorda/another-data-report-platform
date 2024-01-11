@@ -3,14 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
+    <groupId>com.forcelorda</groupId>
+    <artifactId>another-data-report-platform</artifactId>
     <version>3.8.7</version>
     <packaging>jar</packaging>
 
-    <name>ruoyi</name>
-    <url>http://www.ruoyi.vip</url>
-    <description>若依管理系统</description>
+    <name>another-data-report-platform</name>
+    <description>another-data-report-platform</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -235,6 +234,18 @@
                 </exclusion>
             </exclusions>
         </dependency>
+<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+<dependency>
+    <groupId>com.baomidou</groupId>
+    <artifactId>mybatis-plus-boot-starter</artifactId>
+    <version>3.5.5</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.baomidou/dynamic-datasource-spring-boot-starter -->
+<dependency>
+    <groupId>com.baomidou</groupId>
+    <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+    <version>4.3.0</version>
+</dependency>
 
 	</dependencies>
 
