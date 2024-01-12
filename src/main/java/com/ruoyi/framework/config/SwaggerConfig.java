@@ -45,7 +45,7 @@ public class SwaggerConfig
      * 创建API
      */
     @Bean
-    public Docket createRestApi()
+    Docket createRestApi()
     {
         return new Docket(DocumentationType.OAS_30)
                 // 是否启用Swagger

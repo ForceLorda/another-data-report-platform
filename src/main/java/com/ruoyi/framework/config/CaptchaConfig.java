@@ -16,7 +16,7 @@ import static com.google.code.kaptcha.Constants.*;
 public class CaptchaConfig
 {
     @Bean(name = "captchaProducer")
-    public DefaultKaptcha getKaptchaBean()
+    DefaultKaptcha getKaptchaBean()
     {
         DefaultKaptcha defaultKaptcha = new DefaultKaptcha();
         Properties properties = new Properties();
@@ -44,7 +44,7 @@ public class CaptchaConfig
     }
 
     @Bean(name = "captchaProducerMath")
-    public DefaultKaptcha getKaptchaBeanMath()
+    DefaultKaptcha getKaptchaBeanMath()
     {
         DefaultKaptcha defaultKaptcha = new DefaultKaptcha();
         Properties properties = new Properties();
