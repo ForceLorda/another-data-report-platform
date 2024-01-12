@@ -52,7 +52,7 @@ spring:
     # 国际化资源文件路径
     basename: i18n/messages
   profiles:
-    active: druid,redis
+    active: ds,redis
   # 文件上传
   servlet:
     multipart:
@@ -73,12 +73,6 @@ token:
   secret: abcdefghijklmnopqrstuvwxyz
   # 令牌有效期（默认30分钟）
   expireTime: 30
-
-# PageHelper分页插件
-pagehelper:
-  helperDialect: mysql
-  supportMethodsArguments: true
-  params: count=countSql
 
 # Swagger配置
 swagger:
